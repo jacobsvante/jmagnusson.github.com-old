@@ -4,9 +4,11 @@ title: Change ssh port in OS X Lion (and Snow Leopard)
 time: 2011-07-02
 ---
 
-{% highlight sh %}
+{% highlight bash %}
 sudo vim /System/Library/LaunchDaemons/ssh.plist
+
 ...
+
  17     <dict>
  18         <key>Listeners</key>
  19         <dict>
@@ -19,7 +21,9 @@ sudo vim /System/Library/LaunchDaemons/ssh.plist
  26             </array>
  27         </dict>
  28     </dict>
+ 
 ...
+
 sudo launchctl unload -w /System/Library/LaunchDaemons/ssh.plist
 sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
 {% endhighlight %}
