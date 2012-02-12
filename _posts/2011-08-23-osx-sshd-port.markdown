@@ -13,10 +13,10 @@ sudo vim /System/Library/LaunchDaemons/ssh.plist
  18         <key>Listeners</key>
  19         <dict>
  20             <key>SockServiceName</key>
- 21             <string>ssh</string> <-- REPLACE 'ssh' WITH PORT
+ 21             <string>22</string> <-- REPLACE '22' WITH NEW PORT
  22             <key>Bonjour</key>
  23             <array>
- 24                 <string>ssh</string> <-- REPLACE 'ssh' WITH PORT
+ 24                 <string>22</string> <-- REPLACE '22' WITH NEW PORT
  25                 <string>sftp-ssh</string>
  26             </array>
  27         </dict>
