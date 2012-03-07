@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VIM: Toggle invisibles
+title: VIM - Toggle invisibles
 time: 2012-03-07
 ---
 
