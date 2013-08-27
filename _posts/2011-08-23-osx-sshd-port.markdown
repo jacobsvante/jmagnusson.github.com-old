@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Change ssh port in OS X Lion (and Snow Leopard)
-time: 2011-07-02
+time: 2011-07-02 20:00:00
 ---
 
 {% highlight bash %}
